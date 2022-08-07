@@ -1,11 +1,13 @@
 import Input from '../blocks/input'
+import Image from '../blocks/image'
 
-const Home = () => {
+const Main = () => {
   return (
-    <Input />
-   
-
+    <div className="h-screen flex flex-col place-content-center">
+      <Image />
+      <Input />
+    </div>
   )
 }
 
-export default Home
+export default Main
